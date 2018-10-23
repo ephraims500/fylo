@@ -1,0 +1,189 @@
+@media only screen and (min-width: 768px) {
+    h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .slanted{
+        position: relative;
+        width: 100%;
+        height: 70vh;
+        color: #fff;
+        background: linear-gradient(to bottom right, rgba(27, 20, 100,1.0), rgba(162, 155, 254,1.0));
+        margin-bottom: 30vh;
+    }
+    .header-hero-img{
+        min-height: 200px;
+        height: 100%;
+        width: 70%;
+        object-fit: cover;
+        max-height: 450px;
+        margin-top: 15vh;
+        position: relative;
+        z-index: 2;
+    }
+    .header-navbar{
+        display: flex;
+        margin-top: 0;
+        padding-top: 50px;
+    }
+    .header-navbar-actions{
+        margin-inline-start: 55vw; 
+    }
+    .header-logo{
+        width: 100%;
+    }
+    .header-btn{
+        padding: 10px;
+        width: 15vw;
+        margin-left: 20px;
+    }
+
+    .header-hero-img{
+        min-height: 200px;
+        height: 100%;
+        width: 35%;
+        object-fit: cover;
+        max-height: 450px;
+        margin-left: 50vw;
+    }
+    .header-content{
+        text-align: left;
+        color: #fff;
+    }
+    .header-content p{
+        font-size: 2em;
+        margin-top:5px;
+        margin-bottom:5px;
+        position: absolute;
+        top: 25vh;
+    }
+    .header-content-btn{
+        width: 20vw;
+        padding: 15px;
+        position: absolute;
+        left: 5vw;
+        margin-top: 30vh;
+    }
+
+    .section-1 h1{
+        margin-bottom: 10vh;
+    }
+    .section-1 img{
+        min-height: 200px;
+        height: 100%;
+        width: 50%;
+        float: left;
+        object-fit: cover;
+        max-height: 450px;
+        padding-right: 10vw;
+    }
+    .section-1-grid-display{
+        display: grid;
+        grid-row-gap: 20vh;
+        grid-column-gap: 5vw;
+        grid-template-rows: repeat(4, 100px);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .call-to-action-p{
+        margin: 0 20vw 0 18vw;
+        text-align: center;
+    }
+    .call-to-action-btn{
+        width: 20%;
+        padding: 12px;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .call-to-action-form form{
+        text-align: center;
+        padding: 15px;
+    }
+    .call-to-action-form input{
+        border-radius: 5px;
+        border: none;
+        border: 2px solid #ccc;
+        padding: 10px;
+        width: 40%;
+        outline: none;
+    }
+
+    .footer-slanted{
+        position: relative;
+        width: 100%;
+        height: 40vh;
+        background: #192a56;
+        margin-top: 20%;
+    }
+
+    .footer-contents{
+        display: grid;
+        grid-column-gap: 5vw;
+        grid-template-rows: repeat(2, 100px);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-grid-items{
+        display: grid;
+        grid-column-gap: 5vw;
+        grid-template-rows: repeat(2, 100px);
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 20vw;
+    }
+
+    .footer-action-p{
+        text-align: left;
+        margin-top: 12vh;
+        margin-left: 7.3vw;
+    }
+    .footer-fylo-logo{
+        margin-left: 0;
+        padding-bottom: 5vh;
+    }
+    .footer-fylo-logo img{
+        width: 20%;
+        padding: 70px 0 20px 0;
+    }
+    .footer-form{
+        position: absolute;
+        top: 20vh;
+        right: 0;
+    }
+    .footer-btn{
+        padding:10px;
+        width: 10vw;
+        margin-top: 20px;
+        float: right;
+    }
+    .footer-white-border{
+        background: #fff;
+        width: 1px;
+        height: 25vh;
+        position: absolute;
+        left: 15vw;
+        margin-top: 10vh;
+        margin-left: 4vw;
+    }
+    .footer-white-border-2{
+        background: #fff;
+        width: 1px;
+        height: 25vh;
+        position: absolute;
+        right: 40vw;
+        margin-top: 10vh;
+        margin-left: 4vw;
+    }
+    
+    .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: relative;
+        z-index: 2;
+        color: hsl(228, 38%, 79%);
+        padding: 5px;
+    }
+    
+    .footer-p_a a{
+        color: hsl(228, 38%, 79%);
+    }
+}
